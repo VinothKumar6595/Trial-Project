@@ -1,0 +1,25 @@
+.button {
+  background-color: rgb(156, 160, 126);
+  margin: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  display: block;
+  font: inherit;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #095012;
+  border-color: #0c530a;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+.button.invalid {
+  background: #a13e68;
+}
